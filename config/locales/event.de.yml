@@ -1,0 +1,8 @@
+de:
+  hyrax:
+    icons:
+      event:     'fa fa-file-text-o'
+    select_type:
+      event:
+        description:        "Event Werke"
+        name:               "Event"
