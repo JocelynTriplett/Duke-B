@@ -1,0 +1,8 @@
+en:
+  hyrax:
+    icons:
+      parent:     'fa fa-file-text-o'
+    select_type:
+      parent:
+        description:        "Parent works"
+        name:               "Parent"

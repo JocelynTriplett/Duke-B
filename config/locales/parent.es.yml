@@ -1,0 +1,10 @@
+es:
+  hyrax:
+    icons:
+      parent:     'fa fa-file-text-o'
+    select_type:
+      parent:
+        # TODO: translate `human_name` into Spanish
+        description:        "Parent trabajos"
+        name:               "Parent"
+        # TODO: translate `human_name` into Spanish
