@@ -1,0 +1,8 @@
+it:
+  hyrax:
+    icons:
+      parent:     'fa fa-file-text-o'
+    select_type:
+      parent:
+        description:        "Parent opere"
+        name:               "Parent"

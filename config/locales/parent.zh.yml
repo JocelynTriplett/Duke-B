@@ -1,0 +1,10 @@
+zh:
+  hyrax:
+    icons:
+      parent:     'fa fa-file-text-o'
+    select_type:
+      parent:
+        # TODO: translate `human_name` into Chinese
+        description:        "Parent 作品"
+        name:               "Parent"
+        # TODO: translate `human_name` into Chinese
