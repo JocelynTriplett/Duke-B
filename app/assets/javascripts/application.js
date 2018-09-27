@@ -20,6 +20,11 @@
 //= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
 //= require blacklight/blacklight
 
-//= require_tree .
+// REMOVED THIS require_tree .
 //= require hyrax
+//= require almond
+
+
+//= require morphosource/editor
+//= require app
 
