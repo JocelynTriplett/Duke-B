@@ -6,7 +6,7 @@ RSpec.feature 'Display an Image' do
   let(:keyword)    { ['Pirates', 'Adventure'] }
   let(:visibility) { Hydra::AccessControls::AccessRight::VISIBILITY_TEXT_VALUE_PUBLIC }
   let(:user)       { 'test@example.com' }
-  let(:year) { ['2010'] }
+  let(:year)       { ['2010'] }
 
   let :image do
     Image.create(title:      title,
@@ -25,5 +25,7 @@ RSpec.feature 'Display an Image' do
     expect(page).to have_content image.keyword.first
     expect(page).to have_content image.keyword.last
     expect(page).to have_content image.year.first
+
+    expect(page).to have_content "Parents"
   end
 end
