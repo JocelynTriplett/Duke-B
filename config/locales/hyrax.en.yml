@@ -47,6 +47,19 @@ en:
           title_tesim: Title
   hyrax:
     account_name: My Institution Account Id
+    base:
+      form_parent_work_relationships:
+        actions:
+          remove: Remove this work from parent
+        attach_new_work: Deposit new work as parent of this work
+        caption: This work is contained within these parent works
+        confirm:
+          cancel: Cancel
+          remove: Remove
+          text: Removing the current work from this parent work will not remove it from the repository, only from the parent work. Are you sure you want to remove the current work from this parent work?
+        header: 
+          actions: Action
+          title: Work title
     directory:
       suffix: "@example.org"
     footer:
@@ -56,3 +69,7 @@ en:
     institution_name_full: The Institution Name
     product_name: Hyrax
     product_twitter_handle: "@SamveraRepo"
+  simple_form:
+    placeholders:
+      defaults:
+        find_parent_work: Search for a work...
